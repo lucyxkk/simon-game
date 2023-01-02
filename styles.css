@@ -48,6 +48,17 @@ body {
 }
 
 .pressed {
-  box-shadow: 0 0 20px white;
-  background-color: grey;
+  /* box-shadow: 0 0 20px white;
+  background-color: grey; */
+  animation-name: change;
+  animation-duration: 0.5s;
+}
+@keyframes change {
+  from {height: 200px;
+        width: 200px;
+}
+
+  to {height: 220px;
+    width: 220px;
+}
 }
