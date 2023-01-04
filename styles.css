@@ -36,6 +36,7 @@ body {
   width: 200px;
   border: 10px solid black;
   border-radius: 20%;
+  cursor: pointer;
 }
 
 .game-over {
@@ -61,7 +62,6 @@ body {
 
 .pressed {
   box-shadow: 0 0 20px white;
-  /* background-color: grey; */
   animation-name: change;
   animation-duration: 0.5s;
 }
